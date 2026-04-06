@@ -1,16 +1,46 @@
-# React + Vite
+# React Picsum Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React image gallery app that fetches images from the Picsum API with pagination support.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Fetch images from API
+- Pagination (Next / Previous)
+- Responsive layout using Tailwind CSS
+- Component-based structure
+- Loading state
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Axios
+- Tailwind CSS
 
-## Expanding the ESLint configuration
+## 📸 API Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+https://picsum.photos/
+
+## ▶️ How to Run Locally
+
+1. Clone the repository
+git clone https://github.com/YOUR_USERNAME/react-picsum-gallery.git
+
+2. Go to project folder
+cd react-picsum-gallery
+
+3. Install dependencies
+npm install
+
+4. Run the app
+npm run dev
+
+## 📌 Future Improvements
+
+- Add loading spinner
+- Add modal view for images
+- Improve UI/UX
+- Infinite scroll
+
+---
+
+⭐ If you like this project, give it a star!
